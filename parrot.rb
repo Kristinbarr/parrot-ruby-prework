@@ -2,7 +2,7 @@
 # returns the phrase
 import pry
 
-def parrot(phrase)
+def parrot(phrase = "Squawk!")
   puts phrase
   return phrase
   binding.pry
